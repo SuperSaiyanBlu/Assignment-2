@@ -1,0 +1,79 @@
+@charset "utf-8";
+.navbar-inverse	{
+	background-color:rgba(213,224,244,1);
+}
+
+.navbar-inverse
+.navbar-nav>li>a {
+	color: black;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.navbar-inverse
+.navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover {	
+	background-color:rgba(41,75,156,1);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-shadow: white 0px 0px 5px;
+}
+
+.navbar-inverse
+.navbar-nav>li>a:hover	{
+	text-shadow: white 0px 0px 5px;
+}
+
+.social img	{
+	width: 10%;
+	height: 10%;
+	-webkit-transition:box-shadow 0.5s, width 0.5s, height 0.5s;
+	-o-transition:box-shadow 0.5s, width 0.5s, height 0.5s;
+	-ms-transition:box-shadow 0.5s, width 0.5s, height 0.5s;
+	-moz-transition:box-shadow 0.5s, width 0.5s, height 0.5s;
+	transition:box-shadow 0.5s, width 0.5s, height 0.5s;
+	border-radius: 10px;
+}
+
+.social img:hover	{
+	width: 11%;
+	height: 11%;
+}
+	
+.links	{
+	list-style-type: none;
+	display: block;
+
+	
+}
+
+.links li	{
+	display: inline;
+	margin-right: 2.5%;	
+
+}
+
+.footer-below	{
+	position: absolute;
+}
+
+*	{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.h3, h3	{
+	font-size: 3.5em;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: white;
+	text-shadow: white 0px 0px 10px;
+}
+
+body	{
+	background:url(../../images/background.JPG) center center fixed no-repeat;
+}
+
+label	{
+	font-size: 1.25em;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: white;
+	font-style: italic;
+}
+
